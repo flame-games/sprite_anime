@@ -16,7 +16,7 @@ class Player extends SpriteAnimationComponent with HasGameRef {
 
   Player()
       : super(
-    size: Vector2.all(50.0),
+    size: Vector2(42.0, 55.0),
   );
 
   @override
@@ -58,17 +58,17 @@ class Player extends SpriteAnimationComponent with HasGameRef {
   Future<void> _loadAnimations() async {
     final spriteSheet = SpriteSheet(
       image: await gameRef.images.load('sp_player.png'),
-      srcSize: Vector2(29.0, 32.0),
+      srcSize: Vector2(84.0, 110.0),
     );
 
     _runDownAnimation =
         spriteSheet.createAnimation(row: 0, stepTime: _animationSpeed, to: 4);
 
     _runLeftAnimation =
-        spriteSheet.createAnimation(row: 1, stepTime: _animationSpeed, to: 4);
+        spriteSheet.createAnimation(row: 2, stepTime: _animationSpeed, to: 4);
 
     _runUpAnimation =
-        spriteSheet.createAnimation(row: 2, stepTime: _animationSpeed, to: 4);
+        spriteSheet.createAnimation(row: 1, stepTime: _animationSpeed, to: 4);
 
     _runRightAnimation =
         spriteSheet.createAnimation(row: 3, stepTime: _animationSpeed, to: 4);
