@@ -49,9 +49,11 @@ These settings are specified in [sprite_list.dart](https://github.com/flame-game
 
 ## Contributor
 
+### copyright holder
+
 無料素材集Vol.1 - The Free Archives
 
-[Dreams Circle](https://booth.pm/ja/items/2122786)
+[© Dreams Circle](https://booth.pm/ja/items/2122786)
 
 I appreciate it very much.
 
