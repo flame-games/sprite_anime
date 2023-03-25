@@ -28,21 +28,21 @@ Executes the animation of the effect selected by the DropdownButton component.
 | Type | File and parameter names | amount (Cells) | amountPerRow (Row) | animation |
 |:--------------|:--------------|:------------|:------------|:------------|
 | Slash | slash | 30 | 5 | <img width="120" src="https://user-images.githubusercontent.com/1584153/227741121-75f1f72d-d57f-4cd0-8393-0343fe5ba33c.gif"> |
-| Thrust | thrust | 30 | 5 | |
-| Punch | punch | 30 | 5 | |
+| Thrust | thrust | 30 | 5 | <img width="120" src="https://user-images.githubusercontent.com/1584153/227741761-7bf03882-614a-4f67-9711-ac0e375e5f72.gif"> |
+| Punch | punch | 30 | 5 | <img width="120" src="https://user-images.githubusercontent.com/1584153/227741831-0b16d0b0-e211-44b2-80bd-8b4374a1f9bc.gif"> |
 
 
 ### Skills
 
 | Type | File and parameter names | amount (Cells) | amountPerRow (Row) | animation |
 |:--------------|:--------------|:------------|:------------|:------------|
-| Buff | buff | 60 | 5 | |
-| DeBuff | debuff | 60 | 5 | |
-| Shimmer | shimmer | 60 | 5 | |
-| Cure | cure | 80 | 5 | |
-| Shiled | shield | 60 | 5 | |
-| Barrier | barrier | 100 | 5 | |
-| Burst | burst | 100 | 5 | |
+| Buff | buff | 60 | 5 |  <img width="120" src="https://user-images.githubusercontent.com/1584153/227741846-7e492d20-2a5d-4268-9d0d-b3fcbe4a73e4.gif"> |
+| DeBuff | debuff | 60 | 5 |  <img width="120" src="https://user-images.githubusercontent.com/1584153/227741849-eeac42ab-233c-488b-9d02-9ffc5b1e0ce4.gif"> |
+| Shimmer | shimmer | 60 | 5 |  <img width="120" src="https://user-images.githubusercontent.com/1584153/227741864-f64831cf-baa1-4b3f-9aa2-d23119e04eca.gif"> |
+| Cure | cure | 80 | 5 |  <img width="120" src="https://user-images.githubusercontent.com/1584153/227741851-01064a77-c439-4d7a-ac21-019a906815ea.gif"> |
+| Shiled | shield | 60 | 5 |  <img width="120" src="https://user-images.githubusercontent.com/1584153/227741853-093148ab-a26c-416f-8862-6c3ad100afd3.gif"> |
+| Barrier | barrier | 100 | 5 | <img width="120" src="https://user-images.githubusercontent.com/1584153/227741854-5acf3e3e-2e2b-4d78-9a58-80c2419b8638.gif"> |
+| Burst | burst | 100 | 5 | <img width="120" src="https://user-images.githubusercontent.com/1584153/227741855-5e2a281f-0fcc-4294-8a7d-bc4f374cf15d.gif"> |
 
 These settings are specified in [sprite_list.dart](https://github.com/flame-games/sprite_anime/blob/main/lib/helpers/sprite_list.dart), which reads the [image](https://github.com/flame-games/sprite_anime/tree/main/assets/images) in assets and performs the animation.
 
