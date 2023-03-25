@@ -1,6 +1,4 @@
-import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
-
 import 'main_game_page.dart';
 
 void main() {
@@ -15,7 +13,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'SpriteAnime',
+      title: 'SpriteAnimation',
       home: MainGamePage(),
     );
   }

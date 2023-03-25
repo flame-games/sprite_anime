@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flame/palette.dart';
 import 'package:flame/game.dart';
-import 'helpers/joypad.dart';
+import 'components/select.dart';
 
 import 'game.dart';
 
@@ -19,16 +17,15 @@ class MainGameState extends State<MainGamePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromRGBO(0, 0, 0, 1),
         body: Stack(
           children: [
             GameWidget(game: game),
             Align(
-              alignment: Alignment.bottomRight,
+              alignment: Alignment.topLeft,
               child: Padding(
                 padding: const EdgeInsets.all(32.0),
                 child:
-                Joypad(onDirectionChanged: game.onJoyPadDirectionChanged),
+                Select(onChanged: game.onChanged),
               ),
             )
           ],
