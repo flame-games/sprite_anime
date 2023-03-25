@@ -27,7 +27,7 @@ Executes the animation of the effect selected by the DropdownButton component.
 
 | Type | File and parameter names | amount (Cells) | amountPerRow (Row) | animation |
 |:--------------|:--------------|:------------|:------------|:------------|
-| Slash | slash | 30 | 5 | |
+| Slash | slash | 30 | 5 | <img width="120" src="https://user-images.githubusercontent.com/1584153/227741121-75f1f72d-d57f-4cd0-8393-0343fe5ba33c.gif"> |
 | Thrust | thrust | 30 | 5 | |
 | Punch | punch | 30 | 5 | |
 
