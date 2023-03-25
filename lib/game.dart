@@ -8,7 +8,7 @@ class MainGame extends FlameGame with HasGameRef {
   final double _animationSpeed = 0.025;
 
   @override
-  Color backgroundColor() => Colors.white;
+  Color backgroundColor() => const Color.fromRGBO(73, 73, 73, 1.0);
 
   void onChanged(String selectedName) {
     final Map<String, dynamic> selectedSprite =
@@ -33,7 +33,7 @@ class MainGame extends FlameGame with HasGameRef {
       removeOnFinish: true,
     );
 
-    animationComponent.position = gameSize / 2;
+    animationComponent.position = gameSize / 2 - (size / 2);
     add(animationComponent);
   }
 }

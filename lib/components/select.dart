@@ -18,13 +18,29 @@ class SelectState extends State<Select> {
     return DropdownButton(
       value: selectedValue,
       items: spriteNameList.map((String list) =>
-          DropdownMenuItem(value: list, child: Text(list)))
-          .toList(),
+          DropdownMenuItem(
+              value: list,
+              child: Text(
+                list,
+                // style: const TextStyle(color: Colors.white),
+              )
+          )).toList(),
       onChanged: (String? value) {
         widget.onChanged!(value!);
         setState(() {
           selectedValue = value!;
         });
+      },
+      selectedItemBuilder: (BuildContext context) {
+        return spriteNameList.map((String value) {
+          return Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              selectedValue,
+              style: const TextStyle(color: Colors.white),
+            ),
+          );
+        }).toList();
       },
     );
   }
