@@ -4,6 +4,8 @@ This is a sample of sprite animation implementation of an effect using flutter's
 
 <img width="400" src="https://user-images.githubusercontent.com/1584153/227728232-949da1c3-39c7-4870-b8ba-e8c758d8c78c.png">
 
+Click here to see a [sample](https://flame-games.github.io/sprite_anime/) of how it works on the web.
+
 ## Usage
 
 ```
