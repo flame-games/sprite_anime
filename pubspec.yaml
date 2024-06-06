@@ -1,5 +1,5 @@
 name: sprite_anime
-description: A new Flutter project.
+description: Sample sprite animation of effects using Flutter's Frame game engine.
 publish_to: 'none'
 version: 1.0.0+1
 environment:
